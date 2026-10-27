@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="pwa/icon-512.png" width="140" alt="Vizah icon" />
-
 # Vizah
 
 **Your Last.fm scrobbles, but make it a light show.**
@@ -181,7 +179,7 @@ Set these in front of the launch command, like `PORT=9000 bash ~/vizah/launch.sh
 
 ### ⚠️ Heads up: the built-in dev logins
 
-The server code includes two convenience accounts for development (`Umbrxs` and `Vizah`, both with the password `00000000`) that it re-creates on every start so the developer never has to sign up again. Because the server is reachable from your network, **`launch.sh` and `start.sh` turn this off by default.** If you ran `python3 server.py` directly, set `VIZAH_DEV_ACCOUNTS=0` yourself. Only turn it on (`VIZAH_DEV_ACCOUNTS=1`) for a private test setup that nobody else can reach.
+The server code includes two convenience accounts for development (`Umbrxs` and `Vizah`, both with the password `You thought :)`) that it re-creates on every start so the developer never has to sign up again. Because the server is reachable from your network, **`launch.sh` and `start.sh` turn this off by default.** If you ran `python3 server.py` directly, set `VIZAH_DEV_ACCOUNTS=0` yourself. Only turn it on (`VIZAH_DEV_ACCOUNTS=1`) for a private test setup that nobody else can reach.
 
 ---
 
